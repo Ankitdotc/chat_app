@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import ExitToAppTwoToneIcon from '@material-ui/icons/ExitToAppTwoTone'; 
+// import ExitToAppTwoToneIcon from '@material-ui/icons/ExitToAppTwoTone'; 
 
 function Header({user, signOut}) {
     return (
@@ -9,9 +9,10 @@ function Header({user, signOut}) {
                 <Name>
                     <h4>{user.name}</h4>
                 </Name>
-                <UserImage onClick={signOut}>
+                {/* <UserImage onClick={signOut}>
                     <ExitToAppTwoToneIcon/>
-                </UserImage>
+                </UserImage> */}
+                <button type="button"className="sign-out" onClick={() => {signOut()}}><span>Sign Out</span></button>
             </UserInformation>
         </Container>
     )
@@ -35,10 +36,4 @@ const UserInformation = styled.div`
 const Name = styled.div`
     padding-right: 15px;
 `
-const UserImage = styled.button`
-    width: 35px;
-    height: 35px;
-    border-radius: 2px;
-    border: 1px solid ;
-    cursor: pointer;
-`
+

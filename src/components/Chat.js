@@ -93,7 +93,7 @@ const Header = styled.div`
     padding-right: 30px;
     display: flex;
     align-items: center;
-    border-bottom: 10px solid #1F2937;
+    border-bottom: 2px solid #1F2937;
     justify-content: space-between;
 `
 const Group = styled.div`
