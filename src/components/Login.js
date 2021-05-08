@@ -33,11 +33,7 @@ function Login(props) {
                 <SignInButton onClick={()=> signIn()}>
                     Please log in with your google account
                 </SignInButton>
-                {/* <DummyLogIn>
-                    <button onClick={()=>Login("aoduw@gmail.com","aoduw@gmail.com").then(()=>history.push("/"))}>
-                  Login with Dummy account?
-                    </button>
-                </DummyLogIn> */}
+               
             </Content>
         </Container>
     )

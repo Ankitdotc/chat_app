@@ -30,7 +30,7 @@ const getGroups = () => {
     })
   }
 
-// runs it once
+
 useEffect(() => {
   getGroups();
 }, [])
@@ -51,7 +51,7 @@ useEffect(() => {
                       <Chat user = {user}/>
                     </Route>
                     <Route path='/'>
-                      Select or Add Group
+                      Choose any group or Add any group of your choice
                     </Route>
                   </Switch>
                 </Main>

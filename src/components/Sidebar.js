@@ -31,7 +31,7 @@ function Sidebar(props) {
     return (
         <Container>
             <NameContainer>
-                    <h3>Group Chat</h3>
+                    <h2>Group Chat</h2>
                     
             </NameContainer>
             <MainGroups>
