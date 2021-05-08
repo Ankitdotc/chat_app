@@ -51,7 +51,7 @@ useEffect(() => {
                       <Chat user = {user}/>
                     </Route>
                     <Route path='/'>
-                      Choose any group or Add any group of your choice
+                    <strong> Choose any group or Add any group of your choice</strong> 
                     </Route>
                   </Switch>
                 </Main>

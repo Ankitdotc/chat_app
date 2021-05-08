@@ -26,12 +26,12 @@ function Login(props) {
         <Container>
             <Content>
                 <LogoImg>
-                    {/* <img src="https://img.icons8.com/cute-clipart/50/000000/chat.png" alt=""/> */}
+                    
                     <img src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX18166813.jpg" alt=""/>
                 </LogoImg>
                 <h1><strong>💥 🔥Welcome to my chat world 👋 ✌️</strong></h1>
                 <SignInButton onClick={()=> signIn()}>
-                    Please log in with your google account
+                    Please Sign in with your google account
                 </SignInButton>
                
             </Content>
@@ -66,7 +66,7 @@ const LogoImg = styled.div`
 `
 const SignInButton = styled.button`
     margin-top: 50px;
-    background-color: #272424;
+    background-color: #6B7280;
     color: white;
     border: none;
     height: 40px;
